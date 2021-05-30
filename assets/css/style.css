@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "SemiBold";
+  src: url("./HKgrotesque/HKGrotesk-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./HKgrotesque/HKGrotesk-Regular.otf") format("opentype");
+}
+body {
+  font-family: "SemiBold", serif;
+  margin: 0px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.header__top .top__weather {
+  display: flex;
+  align-items: center;
+}
+.header__top .top__weather .weather__logo {
+  padding-right: 20px;
+}
+.header__top .top__weather img {
+  width: 30px;
+}
+.header__top .top__weather .weather__info h4,
+h6 {
+  margin: 0px;
+}
+.header__top .top__logo img {
+  width: 200px;
+}
+.header__top .top__right .right__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.header__top .top__right .list__item {
+  margin-right: 10px;
+}
+.item_link {
+  text-decoration: none;
+}
+.header__bottom .bottom__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
