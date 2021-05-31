@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "SemiBold";
+  src: url("./HKgrotesque/HKGrotesk-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("./HKgrotesque/HKGrotesk-Regular.otf") format("opentype");
+}
+body {
+  font-family: "SemiBold", serif;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 2px;
+  color: #003b5c;
+}
+
+h6 {
+  font-size: 12px;
+  color: #5d534f;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 3px;
+  color: #003b5c;
+  padding-top: 10px;
+}
+
+p {
+  font-family: "Regular", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 15px;
+  transition: 0.3s all;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background: black;
+  cursor: pointer;
+  width: 150px;
+}
+
+.header__main .header__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__main .header__top .top__weather {
+  display: flex;
+  align-items: center;
+}
+.header__main .header__top .top__weather .weather__logo {
+  padding-right: 20px;
+}
+.header__main .header__top .top__weather .weather__logo img {
+  width: 30px;
+}
+.header__main .header__top .top__weather .weather__info h4,
+.header__main .header__top .top__weather .weather__info h6 {
+  margin: 0px;
+}
+.header__main .header__top .top__logo img {
+  width: 170px;
+}
+.header__main .header__top .top__right .right__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.header__main .header__top .top__right .right__list .list__item {
+  padding-right: 20px;
+}
+.header__main .header__top .top__right .right__list .list__item .item__link {
+  text-decoration: none;
+}
+.header__main .header__bottom .bottom__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+main .section__hero .hero__wrapper {
+  display: flex;
+  padding-bottom: 350px;
+}
+main .section__hero .hero__wrapper .hero__left,
+main .section__hero .hero__wrapper .hero__right {
+  width: 50%;
+  padding-right: 20px;
+  position: relative;
+}
+main .section__hero .hero__wrapper .hero__left .hero__photo,
+main .section__hero .hero__wrapper .hero__right .hero__photo {
+  width: 100%;
+}
+main .section__hero .hero__wrapper .hero__left .hero__content,
+main .section__hero .hero__wrapper .hero__right .hero__content {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  right: 10%;
+  background: white;
+}
+main .section__hero .hero__wrapper .hero__left {
+  width: 80%;
+}
+main .section__hero .hero__wrapper .hero__left .hero__content {
+  position: absolute;
+  top: 90%;
+  left: 12%;
+  right: 15%;
+  background: white;
+}
+main .section__hero .hero__wrapper .hero__photo {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */

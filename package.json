@@ -1,0 +1,24 @@
+{
+  "name": "Projet-reponsive-designe-DANG-NgocHaLan",
+  "version": "1.0.0",
+  "description": "Nom : DANG Prénom : Ngoc Ha Lan Classe : B2B Informatique Ynov",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaLan0101/Projet-reponsive-designe-DANG-NgocHaLan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaLan0101/Projet-reponsive-designe-DANG-NgocHaLan/issues"
+  },
+  "homepage": "https://github.com/HaLan0101/Projet-reponsive-designe-DANG-NgocHaLan#readme"
+}

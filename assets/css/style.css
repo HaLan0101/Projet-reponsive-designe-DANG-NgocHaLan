@@ -61,7 +61,7 @@ p {
   width: 30px;
 }
 .header__top .top__weather .weather__info h4,
-h6 {
+.header__top .top__weather .weather__info h6 {
   margin: 0px;
 }
 .header__top .top__logo img {
